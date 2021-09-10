@@ -4,14 +4,51 @@
         h1 {text-align: center;}
         h2 {text-align: center;}
         p {text-align: center;}
+        
+        .split
+        {
+            width: 25%;
+            position: fixed;
+
+        }
+        .split2
+        {
+            top: 30%;
+            width: 25%;
+            position: fixed;
+
+        }
+        .left
+        {
+            left: 0%;
+        }
+        .centerLeft
+        {
+            left: 25%;
+        }
+        .centerRight
+        {
+            right: 25%;
+        }
+        .right
+        {
+            right:0%;
+        }
+
         </style>
     <title>Jackie's Zoo</title>
 </head>
 <body>
     <h1>Jackie's Zoo</h1>
     <h2>Welcome to my zoo! Click on the animal's name to be redirected to its corresponding page. </h2>
-    <p><a href="Tiger.html">Tiger</a></p>
-    <p><a href="Penguin.html">Penguin</a></p>
-    <p><a href="Turtle.html">Turtle</a></p>
-    <p><a href="Elephant.html">Elephant</a></p>
+    <div class="split left"><img src="imgs/tiger1.jpg" alt="tigerClip" width="200" height="150"></div>
+    <div class="split centerLeft"><img src="imgs/penguin1.png" alt="penguinClip" width="200" height="150"></div>
+    <div class="split centerRight"><img src="imgs/elephant1.png" alt="elephantClip" width="200" height="150"></div>
+    <div class="split right"><img src="imgs/turtle1.jpg" alt="turtleClip" width="200" height="150"></div>
+
+    <div class="split2 left"><a href="Tiger.html">Tiger</a></div>
+    <div class= "split2 centerLeft"><a href="Penguin.html">Penguin</a></div>
+    <div class= "split2 centerRight"><a href="Elephant.html">Elephant</a></div>
+    <div class= "split2 right"><a href="Turtle.html">Turtle</a></div>
+
 </body>
