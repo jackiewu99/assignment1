@@ -1,0 +1,49 @@
+h1 {text-align: center;}
+h2 {text-align: center;}
+p {text-align: center;}
+
+.split
+{
+    width: 25%;
+    position: fixed;
+
+}
+.split2
+{
+    top: 30%;
+    width: 25%;
+    position: fixed;
+
+}
+.left
+{
+    left: 0%;
+}
+.left2
+{
+    left: 5%;
+}
+.centerLeft
+{
+    left: 25%;
+}
+.centerLeft2
+{
+    left: 30%;
+}
+.centerRight
+{
+    right: 25%;
+}
+.centerRight2
+{
+    left: 55%;
+}
+.right
+{
+    right:0%;
+}
+.right2
+{
+    left: 80%;
+}
